@@ -9,7 +9,7 @@ export default class BotController {
     }
 
     public async getBotStatus(req: Request, res: Response): Promise<void> {
-        console.log(req.body)
+        console.log(req.body);
         try {
             const status = await this.botService.handleWhatsAppMetaCallback(req, res);
             res.status(200).json(status);
