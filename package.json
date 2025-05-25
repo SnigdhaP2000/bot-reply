@@ -1,0 +1,22 @@
+{
+  "name": "bot-reply",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "repository": "https://github.com/SnigdhaP2000/bot-reply.git",
+  "author": "SnigdhaPatwatkar <smpatwatkar2000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
